@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css" type="text/css">
+    <title>signup</title>
+    <style>
+        #main{
+            display: flex;
+            position: absolute;
+            top:5vh;
+            left: 15vw;
+            width: 70%;
+            height: 400px;
+            
+        }
+        #main>div{
+        width: 50%;
+        height: 100%;
+        border: 1px solid blue;
+        }
+        #logLeft{
+            position: relative;
+            background-image: url("https://cdn.modesens.com/product/40641465_2?w=400&");
+            width: 100%;
+            height: 100%;
+        }
+        #logLeft>div{
+            display: geid;
+            position: absolute;
+            width: 60%;
+            height: 40%;
+            box-shadow: rgb(0, 0, 9) 0px 30px 60px -12px inset, rgb(0, 0, 0) 0px 18px 36px -18px inset;
+            top: 30%;
+            left: 20%;
+            font-size: 7px;
+            padding: 5px;
+            color: white;
+        }
+        #logLeft h1,p{
+                text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="main">
+        <div id="logLeft">
+            <div>
+                <h1>MODESENS</h1>
+                <p>MOVING FASION FORWARD</p>
+                <h2> COMPARE ACROSS 500+ STORES</h2>
+                <h2> GET ALERTS YOUR ITEMS</h2>
+                <h2> SAVING YOUR SERCHES</h2>
+                <h2> MANAGE YOUR SHOPPING LISTS</h2>
+                <h2> EARN POINTS</h2>
+            </div>
+        </div>
+        <div>
+            <div>
+                <form >
+                    <input id="name" type="text" placeholder="Name">
+                    <input id="email" type="email" placeholder="Email Address">
+                    <input id="pass" type="password" placeholder="password">
+                
+                    <input type="submit" value="SignUp">
+                   </form> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="signup.js">
+
+</script>

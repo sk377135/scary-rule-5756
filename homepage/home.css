@@ -1,0 +1,229 @@
+
+#nav{
+    display: flex;
+    position: sticky;
+    width: 100%;
+    height: 10vh;
+    background-color: aquamarine;
+    top: 0px;
+    justify-content: space-around;
+    text-align: center;
+    z-index: 1;
+}
+#main{
+    width: 100%;
+    height: auto;
+
+}
+
+
+#nav>div:nth-child(1){
+    display: flex;
+    width: 65%;
+    height: 100%;
+
+    
+}
+#nav>div:nth-child(2){
+    width: 30%;
+    height: 100%;
+}
+#logo{
+    display: flex;
+    height: auto;
+    width: 15%;
+    text-align: center;
+}
+#nav img{
+    width: 100%;
+    height: 100%;
+}
+#nav p{
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+#main{
+    margin-bottom: 50px;
+    width: 80%;
+    margin: auto;
+}
+#ads{
+    position: relative;
+}
+#ads>img{
+    width: 100%;
+}
+#leftbtn{
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    background-color: transparent;
+    color:beige;
+    border: 0px;
+    font-size: 20px;
+}
+#rightbtn{
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    background-color: transparent;
+    color:beige;
+    border: 0px;
+    font-size: 20px;
+}
+
+
+/* //////////freatured pattner////// */
+#partner{
+    margin-bottom: 50px;
+}
+#partner>div{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,100px);
+    margin-bottom: 20px;
+}
+
+#partner img{
+    width: 100%;
+    height: 100%;
+}
+#partner h2{
+    font-size: 23px;
+    text-align: center;
+    color: rgb(65, 59, 59);
+}
+#partner p{
+    font-size: 23px;
+    text-align: center;
+    color: gray;
+}
+
+/* ///////special///////// */
+#special{
+   margin-bottom: 50px; 
+}
+#special>div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    text-align: center;
+}
+
+.specialImg{
+    width: 100%;
+    height: 400px;
+}
+#special img{
+    width: 100%;
+    height: 100%;
+}
+h2{
+    text-align: center;
+}
+.specialText{
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+}
+
+#Tranding{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#Tranding>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    text-align: center;
+    
+}
+
+#tandingBtn{
+    margin-top: 20px;
+    
+}
+.tandingImg{
+    width: 100%;
+    height: 80%;
+}
+.tandingTxt{
+    width: 100%;
+    height: 20%;
+    font-size: 10px;
+    padding: 2px;
+}
+.tandingImg img{
+    width: 100%;
+    height: 100%; 
+}
+
+/* ///////communtiy post/////////// */
+#community{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+#community>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#community img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* //////////app /////////// */
+#app{
+
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 50px;
+    padding: 60px;
+    margin-bottom: 100px;
+}
+
+.appHead{
+    height: 20%;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.appImg{
+    height: 80%;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+}
+.appImg>img{
+    height: 100%;
+    width: 100%;
+}
+.appHead h3{
+    width: 60%;
+    font-size: 25px;
+    color: rgb(74, 62, 62);
+    margin: auto;
+}
+.appHead p{
+    width: 65%;
+    font-size: 15px;
+    margin: auto;
+}
+.appHead button{
+    background-color: rgb(32, 24, 24);
+    color: white;
+}
+
